@@ -119,7 +119,6 @@ print(f(n))
 - iterative 방식:
 
     ```python
-    ```python
     f = [0, 1]
 
     for i in range(2, n + 1):
@@ -127,7 +126,10 @@ print(f(n))
 
     print(f(n))
     ```
-    ```
 
 - 이 때, memorization을 재귀적 구조에 사용하는 것보다 반복적 구조로 DP를 구현한 것이 성능 면에서 보다 효율적이다.
     - 재귀적 구조는 내부에 시스템 호출 스택을 사용하는 오버헤드가 발생하기 때문이다.
+
+--------
+
+ⓒ 2021. `chloeelog` all rights reserved.
